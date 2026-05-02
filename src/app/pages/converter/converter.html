@@ -1,1 +1,21 @@
-<p>converter works!</p>
+<h1>Konverterare</h1>
+
+<p>Här ska jag Konvertera</p>
+
+<h2>Meter ↔ Feet</h2>
+
+<input type="number" aria-label="metersToFeet" [(ngModel)]="meters" (input)="metersToFeet()">
+<p>{{ meters }} meter = {{ feet }} feet</p>
+
+<input type="number" aria-label = "feetToMeters" [(ngModel)]="feet" (input)="feetToMeters()">
+<p>{{ feet }} feet = {{ meters }} meter</p>
+
+<hr>
+
+<h2>Celsius ↔ Fahrenheit</h2>
+
+<input type="number" aria-label = "celsiusToFahrenheit" [(ngModel)]="celsius" (input)="celsiusToFahrenheit()">
+<p>{{ celsius }}°C = {{ fahrenheit }}°F</p>
+
+<input type="number" aria-label="fahrenheitToCelsius" [(ngModel)]="fahrenheit" (input)="fahrenheitToCelsius()">
+<p>{{ fahrenheit }}°F = {{ celsius }}°C</p>
