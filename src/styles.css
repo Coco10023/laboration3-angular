@@ -1,21 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
   color: #222;
 }
 
-main {
-  max-width: 1000px;
+main,
+router-outlet + * {
+  display: block;
+  max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
 }
 
 h1 {
   color: #1f2937;
+}
+
+p {
+  line-height: 1.6;
 }
