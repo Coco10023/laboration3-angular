@@ -38,5 +38,7 @@ Under arbetet har jag lärt mig hur Angular fungerar, hur man bygger upp en appl
 med komponenter och hur routing används. Jag har även fått förståelse för databindning
 genom att skapa en konverterare.
 
+Routing i Angular används för att navigera mellan olika delar av applikationen utan att ladda om sidan. Det gör att användarupplevelsen blir snabbare och mer dynamisk.
+
 En utmaning var att förstå filstrukturen i Angular och hur olika delar hänger ihop,
 men genom att testa och felsöka kunde jag lösa problemen.
